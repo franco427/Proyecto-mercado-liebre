@@ -95,6 +95,17 @@ margin: auto;
 .ingresar{
 font-size: 20px;
 font-family: 'Courier New';
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ingresar form{
+    width: 100%;
+}
+
+.ingresar div{
+justify-content: center;
 }
 
 .maxwell{
@@ -218,9 +229,12 @@ margin-top: 10px;
 width: 100%;
 }
 
-.pie{
+.footer-home{
 text-align: center;
 margin: 2px;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 
 section.fa-solid{
@@ -288,13 +302,13 @@ padding: 10px;
     text-decoration: none;
     color: black;
     }
-    .pie{
+    .footer-home{
     display: flex;
     margin-top: 10px;
-    align-self: flex-end;
     }
     .footer{
     padding: 10px;
+    width: 30%;
     }
     .fa-credit-card{
         font-size: 15px;
@@ -367,10 +381,10 @@ padding: 10px;
     
 
     .ingresar input{
-    width: 50%;
+    width: 50%
     }
     .button-login button{
-    width: 20%;
+    width: 50%;
     border-radius: 4px;
     }
     .fa-credit-card{
