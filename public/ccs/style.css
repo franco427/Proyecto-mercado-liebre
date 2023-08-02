@@ -1,0 +1,392 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.login{
+    display:none;
+}
+
+header{
+background-color: rgb(255,241,89);
+padding: 10px;
+}
+
+.logo{
+max-width:50%
+}
+
+.principal{
+display: flex;
+flex-wrap: wrap;
+height: 100px;
+justify-content: center;
+}
+
+.buscador{
+display: flex;
+justify-content: center;
+width: 40%;
+align-self: center;
+}
+
+#buscar{
+width: 80%
+}
+    
+#lupa{
+margin: 3px;
+padding: 2px;
+width: 19px;
+align-self: center;
+}
+
+button{
+height: 30px;
+align-self: center;
+background-color: #fff;
+}
+
+.titular{
+padding: 15px;
+text-align: center;
+}
+
+div .lista{
+font-size: 18px;
+padding: 10px;
+}
+
+.burger-menu{
+font-size: 17px;
+color: white;
+text-align: center;
+padding: 5px;
+margin: 10px;
+}
+    
+.fa-bars{
+font-size: 18px;
+border: solid 1px black;
+padding: 15px;
+border-radius: 10px;
+background-color:  #1259c3;
+}
+
+
+body{
+font-family: 'Roboto';
+font-size: 12px;
+background-color: #ebebeb;
+}
+
+#register-body{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+main{
+width: 90%;
+margin: auto;
+}
+
+.ingresar{
+font-size: 20px;
+font-family: 'Courier New';
+}
+
+.maxwell{
+width: 20%;
+position: fixed;
+right: 100px;
+bottom: 20px;
+}
+
+.registro{
+font-size: 15px;
+font-family: Arial;
+}
+
+.button-login button{
+    width: 50%;
+    border-radius: 4px;
+    background-color: #1259c3;
+    color: #fff;
+}
+
+#register-body input{
+width: 70%;
+background-color: white;
+border-radius: 5px;
+border: 1px 
+}
+
+.ingresar input{
+    width: 70%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: #fff;
+}
+
+.botones button{
+font-size: 15px;
+background-color: #1259c3;
+border-radius: 5px;
+padding: 5px;
+width: 50%;
+}
+
+.botones{
+display: flex;
+}
+
+.categorias label #text{
+padding: 5px;
+}
+
+div label{
+display: block;
+margin: 10px 0px;
+}
+
+div{
+padding: 20px;
+
+}
+
+img{
+width: 100%;
+}
+
+article{
+margin: 10px;
+}
+
+.article{
+border-top: solid 1px #ebebeb;
+padding: 10px;
+box-sizing: border-box;
+background-color: white;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+article .fa-solid{
+font-size: 16px;
+color: rgb(35, 192, 35);
+border: 1px solid #39b54a;
+padding: 5px;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+right: 20px;
+position: absolute;
+display: block;
+top: -15px;
+background-color: #fff;
+}
+
+
+h1{
+font-size: 24px;
+padding: 15px;
+}
+
+.precio{
+font-size: 18px;
+width: 30%;
+}
+
+.descuentos{
+font-size: 16px;
+color: rgb(35, 192, 35);
+width: 70%;
+padding-top: 5px;
+}
+
+.descripcion{
+font-size: 16px;
+margin-top: 10px;
+}
+
+.home_banner{
+width: 100%;
+}
+
+.pie{
+text-align: center;
+margin: 2px;
+}
+
+section.fa-solid{
+font-size: 2em;
+margin-left: 10px;
+padding-top: 15px;
+}
+
+p{
+font-size: 16px;
+padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    main section{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .principal{
+    display: flex;
+    }
+
+    .buscador{
+    max-width: 30%
+    }
+    .login{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .lista{
+    display: flex;
+    list-style: none;
+    }
+
+    .login li{
+    margin: 0 5px;
+    font-size: 16px;
+    }
+
+    .burger-menu{
+    display: none;
+    }
+
+    article{
+     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     max-width: 400px;
+     margin: auto;
+     margin-bottom: 10px;
+    }
+    .logo{
+    width: 30%;
+    padding: 10px;
+    }
+    #lupa{
+    align-self: center;
+    }
+    .titular{
+    align-self: center;
+    padding: 5px;
+    }
+    li a{
+    text-decoration: none;
+    color: black;
+    }
+    .pie{
+    display: flex;
+    margin-top: 10px;
+    align-self: flex-end;
+    }
+    .footer{
+    padding: 10px;
+    }
+    .fa-credit-card{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+        .fa-gift{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+        .fa-user-shield{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+}
+
+@media (min-width: 1200px) {
+
+
+    main section{
+    display: flex;
+    justify-content:space-around
+    }
+
+
+    .visual_pc{
+     display: flex;
+     align-items: center;
+    }
+
+    .logo{
+    width: 300px;
+    }
+
+    .titular{
+    padding: 5px;
+    }
+
+    .principal{
+    justify-content: space-around;
+    }
+    li a{
+        font-size: 20px;
+    }
+    .home_banner{
+    height: 200px;
+    }
+
+    article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 200px;
+    }
+
+    .article{
+    font-size: 10px;
+    padding: 5px;
+    }
+
+    .titular{
+    font-size: 18px;
+    }
+    .ingresar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    }
+
+    .botones{
+    width: 70%;
+    justify-content: space-around;
+    }
+    
+
+    .ingresar input{
+    width: 50%;
+    }
+    .button-login button{
+    width: 20%;
+    border-radius: 4px;
+    }
+    .fa-credit-card{
+    font-size: 20px;
+    padding-bottom: 10px;
+    }
+    .fa-gift{
+    font-size: 20px;
+    padding-bottom: 10px;
+    }
+    .fa-user-shield{
+    font-size: 20px;
+    padding-bottom: 10px;
+    }
+    
+    .footer{
+    align-self: flex-end;
+    }
+}
