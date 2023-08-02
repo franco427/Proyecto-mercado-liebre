@@ -231,7 +231,7 @@ width: 100%;
 
 .footer-home{
 text-align: center;
-margin: 2px;
+margin-top: 15px;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
@@ -241,6 +241,11 @@ section.fa-solid{
 font-size: 2em;
 margin-left: 10px;
 padding-top: 15px;
+color: #1259c3;
+}
+
+.footer i{
+color: #1259c3;
 }
 
 p{
@@ -253,6 +258,13 @@ padding: 10px;
     main section{
         display:flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .registro{
+    width: 60%;
+    border: solid 1px black;
+    background-color: #ebebeb;
     }
 
     .principal{
@@ -283,8 +295,7 @@ padding: 10px;
 
     article{
      box-shadow: 0px 0px 10px rgb(100, 100, 100);
-     max-width: 400px;
-     margin: auto;
+     width: 40%;
      margin-bottom: 10px;
     }
     .logo{
@@ -302,9 +313,8 @@ padding: 10px;
     text-decoration: none;
     color: black;
     }
-    .footer-home{
-    display: flex;
-    margin-top: 10px;
+    .botones{
+    width: 50%;
     }
     .footer{
     padding: 10px;
@@ -375,11 +385,9 @@ padding: 10px;
     }
 
     .botones{
-    width: 70%;
     justify-content: space-around;
     }
     
-
     .ingresar input{
     width: 50%
     }
