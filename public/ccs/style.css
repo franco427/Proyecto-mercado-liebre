@@ -102,11 +102,8 @@ align-items: center;
 }
 
 .ingresar form{
-    width: 100%;
-}
-
-.ingresar div{
-justify-content: center;
+    width: 80%;
+    text-align: center;
 }
 
 .registro{
@@ -115,10 +112,14 @@ font-family: Arial;
 }
 
 .button-login button{
-    width: 50%;
+    width: 40%;
     border-radius: 4px;
     background-color: #1259c3;
     color: #fff;
+}
+
+.button-login{
+text-align: center;
 }
 
 #register-body input{
@@ -159,7 +160,6 @@ margin: 10px 0px;
 
 div{
 padding: 20px;
-
 }
 
 img{
@@ -272,6 +272,10 @@ padding: 10px;
     font-size: 20px;
     }
 
+    div.ingreso{
+    text-align: center;
+    }
+
     label{
     font-size: 20px;
     }
@@ -291,10 +295,6 @@ padding: 10px;
     .lista{
     display: flex;
     list-style: none;
-    }
-
-    .ingresar form{
-    text-align: center;
     }
 
     .login li{
@@ -377,6 +377,11 @@ padding: 10px;
     width: 300px;
     }
 
+    .button-login{
+    width: 30%;
+    margin: auto;
+    }
+
     .titular{
     padding: 5px;
     }
@@ -397,17 +402,14 @@ padding: 10px;
     .titular{
     font-size: 18px;
     }
-    .ingresar{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    }
 
     .botones{
     justify-content: space-around;
     }
-    
+
     .ingresar input{
-    width: 50%
+    width: 50%;
+    height: 30px;
     }
     .button-login button{
     width: 50%;
