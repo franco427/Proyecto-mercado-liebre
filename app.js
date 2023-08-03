@@ -3,7 +3,7 @@ const app=express();
 const path=require('path');
 const publicPath = path.resolve(__dirname,'./public');
 
-const PUERTO=3000
+const PUERTO= process.env.PORT || 3001
 
 app.use(express.static(publicPath));
 
