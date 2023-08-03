@@ -54,8 +54,9 @@ text-align: center;
 }
 
 div .lista{
+font-family: Arial;
 font-size: 18px;
-padding: 10px;
+padding: 15px;
 }
 
 .burger-menu{
@@ -128,10 +129,9 @@ font-family: Arial;
 }
 
 #register-body input{
-width: 70%;
+width: 80%;
 background-color: white;
 border-radius: 5px;
-border: 1px 
 }
 
 .ingresar input{
@@ -174,6 +174,7 @@ width: 100%;
 
 article{
 margin: 10px;
+background-color: #fff;
 }
 
 .article{
@@ -211,13 +212,14 @@ padding: 15px;
 .precio{
 font-size: 18px;
 width: 30%;
+padding-left: 5px;
 }
 
 .descuentos{
 font-size: 16px;
 color: rgb(35, 192, 35);
 width: 70%;
-padding-top: 5px;
+padding-top: 12px;
 }
 
 .descripcion{
@@ -262,9 +264,22 @@ padding: 10px;
     }
 
     .registro{
-    width: 60%;
+    max-width: 60%;
     border: solid 1px black;
     background-color: #ebebeb;
+    }
+
+    div input{
+    height: 30px
+    }
+
+    div input{
+    padding-left: 5px;
+    font-size: 20px;
+    }
+
+    label{
+    font-size: 20px;
     }
 
     .principal{
@@ -339,10 +354,13 @@ padding: 10px;
 
     main section{
     display: flex;
-    justify-content:space-around
+    justify-content:space-evenly
     }
 
-
+    .precio{
+    font-size: 17px;
+    padding-top: 13px;
+    }
     .visual_pc{
      display: flex;
      align-items: center;
@@ -359,21 +377,14 @@ padding: 10px;
     .principal{
     justify-content: space-around;
     }
-    li a{
-        font-size: 20px;
-    }
+    
     .home_banner{
     height: 200px;
     }
 
     article{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 200px;
-    }
-
-    .article{
-    font-size: 10px;
-    padding: 5px;
+    width: 20%
     }
 
     .titular{
