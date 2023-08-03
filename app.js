@@ -3,7 +3,7 @@ const app=express();
 const path=require('path');
 const publicPath = path.resolve(__dirname,'./public');
 
-const PUERTO= process.env.PORT || 3001
+const PUERTO= process.env.PORT || 3001;
 
 app.use(express.static(publicPath));
 
@@ -11,7 +11,7 @@ app.listen(PUERTO,()=>{
 console.log("run port "+PUERTO)
 })
 
-app.get('/home',(req,res)=>{
+app.get('/',(req,res)=>{
 res.sendFile(path.join(__dirname,'./views/home.html'))
 })
 
@@ -20,7 +20,7 @@ app.get('/register',(req,res)=>{
 })
 
 app.post('/register',(req,res)=>{
-    res.redirect("/home")
+    res.redirect("/")
 })
 
 app.get('/login',(req,res)=>{
@@ -28,5 +28,5 @@ app.get('/login',(req,res)=>{
 })
 
 app.post('/login',(req,res)=>{
-    res.redirect("/home")
+    res.redirect("/")
 })
