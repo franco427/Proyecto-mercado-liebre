@@ -145,6 +145,7 @@ width: 50%;
 
 .botones{
 display: flex;
+margin: auto;
 }
 
 .categorias label #text{
@@ -290,6 +291,10 @@ padding: 10px;
     .lista{
     display: flex;
     list-style: none;
+    }
+
+    .ingresar form{
+    text-align: center;
     }
 
     .login li{
