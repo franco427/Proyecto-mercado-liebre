@@ -14,7 +14,7 @@ padding: 10px;
 }
 
 .logo{
-max-width:50%
+max-width:50%;
 }
 
 .principal{
@@ -67,12 +67,11 @@ padding: 5px;
 margin: 10px;
 }
     
-.fa-bars{
-font-size: 18px;
-border: solid 1px black;
-padding: 15px;
+button.burger{
 border-radius: 10px;
-background-color:  #1259c3;
+height: 50px;
+background-color: #1259c3;
+margin: 6% 45% 10px 45%;
 }
 
 
@@ -312,7 +311,7 @@ padding: 10px;
     font-size: 16px;
     }
 
-    .burger-menu{
+    button.burger{
     display: none;
     }
 
