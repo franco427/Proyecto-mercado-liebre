@@ -48,7 +48,7 @@
 
      <div>
      <label>Nombre de usuari@</label>
-     <input type="text" name="NombreDeUsuario">
+     <input type="text" name="NombreDeUsuario" class="formulario">
      </div>
     
      <div>
@@ -58,39 +58,41 @@
 
      <div>
      <label>Domicilio</label>
-     <input type="text" name="Domicilio">
+     <input type="text" name="Domicilio" class="formulario">
      </div>
     
      <div>
      <label>Perfil del usuario</label>
-     <label>comprador</label>
+     <label>comprador
      <input type="radio"  name="perfil" value="comprador">
+     </label>
 
-     <label>Vendedor</label>
+     <label for="vendedor">Vendedor
      <input type="radio"  name="perfil" value="vendedor">
+    </label>
      </div>
 
-     <div class="categorias">
-     <label>Categorias de interés: </label>
      
-        <label>Electro
-            <input type="checkbox"  name="Categorias" value="electro">
+     <p>Categorias de interés: </p>
+     <div class="categorias">
+        <label for="electro">Electro
+        <input type="checkbox"  name="Categorias" id="electro">
         </label>
 
-        <label>
-            Moda<input type="checkbox"  name="Categorias" value="moda">
+        <label for="moda">Moda
+        <input type="checkbox"  name="Categorias" id="moda">
         </label>
 
-        <label>Hogar
-            <input type="checkbox"  name="Categorias" value="hogar">
+        <label for="hogar">Hogar
+        <input type="checkbox"  name="Categorias" id="hogar">
         </label>
 
-        <label>Jugueteria
-        <input type="checkbox"  name="Categorias" value="jugueteria">
+        <label for="jugueteria">Jugueteria
+        <input type="checkbox"  name="Categorias" id="jugueteria">
         </label>
 
-        <label>Vida sana
-        <input type="checkbox"  name="Categorias" value="vida-sana">
+        <label for="vida-sana">Vida sana
+        <input type="checkbox"  name="Categorias" id="vida-sana">
         </label>
 
      </div>
@@ -101,11 +103,11 @@
 
      <div>
      <label>Contraseña</label>
-     <input type="password" name="contraseña">
+     <input type="password" name="contraseña" class="formulario">
      </div>
      <div>
         <label>Confirmar contraseña</label>
-        <input type="password" name="Confirmar-contraseña">
+        <input type="password" name="Confirmar-contraseña" class="formulario">
      </div>
 
      <div class="botones">
