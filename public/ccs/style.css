@@ -114,8 +114,6 @@ font-family: Arial;
 .button-login button{
     width: 40%;
     border-radius: 4px;
-    background-color: #1259c3;
-    color: #fff;
 }
 
 .button-login{
@@ -242,6 +240,7 @@ margin-top: 15px;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
+position: relative;
 }
 
 section.fa-solid{
@@ -341,7 +340,7 @@ padding: 10px;
     }
     .footer{
     padding: 10px;
-    width: 30%;
+    width: 33%;
     }
     .fa-credit-card{
         font-size: 15px;
@@ -354,7 +353,7 @@ padding: 10px;
         .fa-user-shield{
         font-size: 15px;
         padding-bottom: 10px;
-        }
+    }
 }
 
 @media (min-width: 1200px) {
@@ -392,6 +391,19 @@ padding: 10px;
     transition: 2s;
     }
 
+    .button-login{
+    width: 30%;
+    margin: auto;
+    }
+
+    .button-login button:hover{
+    background-color: #0022AA;
+    color: #fff;
+    transform: translateY(-3px);
+    transition: 0.50s;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+    }
+
     .visual_pc{
      display: flex;
      align-items: center;
@@ -399,11 +411,6 @@ padding: 10px;
 
     .logo{
     width: 300px;
-    }
-
-    .button-login{
-    width: 30%;
-    margin: auto;
     }
 
     .titular{
@@ -451,8 +458,10 @@ padding: 10px;
     font-size: 20px;
     padding-bottom: 10px;
     }
-    
-    .footer{
-    align-self: flex-end;
+
+    .copy{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
     }
 }
