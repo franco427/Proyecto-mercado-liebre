@@ -149,17 +149,15 @@ display: flex;
 margin: auto;
 }
 
-.categorias label #text{
-padding: 5px;
-}
-
 .categorias{
 display: flex;
 flex-wrap: wrap;
-flex-direction: column;
 font-size: 18px;
+justify-content: space-between;
 }
-
+.categorias label{
+width: 50%;
+}
 
 div label{
 display: block;
@@ -267,18 +265,32 @@ padding: 10px;
     }
 
     .registro{
-    max-width: 70%;
-    border: solid 1px black;
+    width: 60%;
     background-color: #ebebeb;
-    text-align: center;
     }
 
     form.registro{
-    width: 80%;
+    width: 70%;
     }
 
-    .categorias input{
-    width: 50%;
+    #register-body input{
+    height: 30px;
+    }
+    .categorias{
+    flex-wrap: wrap;
+    justify-content:space-evenly
+    }
+    .categorias input[type="checkbox"]{
+    width:40%;
+    }
+
+    input.formulario{
+    font-size: 15px;
+    padding-left: 5px;
+    }
+
+    input.datos{
+    width: 60%;
     }
 
     div.ingreso{
@@ -377,14 +389,47 @@ padding: 10px;
     opacity: 0;
     }
 
+    form.registro{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 80%;
+    }
+
+    #register-body input{
+    width: 80%;
+    height: 20px;
+    }
+
+    #primero{
+    width: 50%;
+    border: solid 1px black;
+    }
+    #segunda{
+    width: 50%;
+    border: solid 1px black;
+    }
+
+    .categorias{
+    flex-wrap:wrap;
+    justify-content: space-evenly
+    }
+    #segunda .categorias input[type="checkbox"]{
+    width: 30%
+    }
+
+    .registro label{
+    font-size: 15px;
+    }
+
     article:hover .descripcion{
     opacity: 1;
-    transition: 0.25s;
+    transition: 0.50s;
     }
 
     section article:hover{
     transform: translateY(-20px);
-    transition: 0.25s;
+    transition: 0.50s;
     box-shadow: 5px 5px 3px rgb(100, 100, 100);
     }
 
@@ -474,7 +519,9 @@ padding: 10px;
 
     .footer-home .footer:hover{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition: all 0.25s;
+    border: solid 1px blue;
     }
 
     .footer:hover .fa-solid{
