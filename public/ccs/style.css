@@ -40,6 +40,10 @@ height: 100px;
 justify-content: center;
 }
 
+div.principal{
+ margin-top: 15px;
+}
+
 .buscador{
 display: flex;
 justify-content: center;
@@ -65,7 +69,7 @@ background-color: #fff;
 }
 
 .titular{
-padding-top: 4px;
+padding: 10px 10px 0px 10px;
 text-align: center;
 }
 
@@ -87,7 +91,7 @@ button.burger{
 border-radius: 10px;
 height: 50px;
 background-color: #1259c3;
-margin: 6% 45% 10px 45%;
+margin: 5% 45% 10px 45%;
 }
 
 
@@ -97,7 +101,7 @@ font-size: 12px;
 background-color: #ebebeb;
 }
 
-/*<------- Body ------->*/
+/*<------- main ------->*/
 
 main{
 width: 90%;
@@ -275,10 +279,6 @@ width: 100%;
 div label{
 display: block;
 margin: 10px 0px;
-}
-
-div{
-padding: 20px;
 }
 
 
