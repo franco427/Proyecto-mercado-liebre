@@ -65,7 +65,7 @@ background-color: #fff;
 }
 
 .titular{
-padding: 15px;
+padding-top: 4px;
 text-align: center;
 }
 
@@ -414,7 +414,7 @@ padding: 20px;
     .botones{
         width: 50%;
     }
-    
+
 /*<-------- Login -------->*/
     .ingreso input{
     font-size: 18px;
