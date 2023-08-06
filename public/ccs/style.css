@@ -220,20 +220,22 @@ padding: 15px;
 }
 
 .precio{
-font-size: 18px;
+font-size: 20px;
 width: 30%;
 padding-left: 5px;
+font-weight:bold
 }
 
 .descuentos{
-font-size: 16px;
+font-size: 20px;
 color: rgb(35, 192, 35);
 width: 70%;
-padding-top: 12px;
+align-self: center;
+font-weight: bold;
 }
 
 .descripcion{
-font-size: 16px;
+font-size: 20px;
 margin-top: 10px;
 }
 
@@ -409,9 +411,15 @@ padding: 10px;
     justify-content:space-evenly
     }
 
+    .descuentos{
+    font-size: 15px;
+    }
     .precio{
-    font-size: 17px;
-    padding-top: 13px;
+        font-size: 15px;
+    padding-left: -90px;
+    }
+    .descripcion{
+    font-size: 15px;
     }
 
     .descripcion{
