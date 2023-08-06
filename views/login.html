@@ -40,15 +40,15 @@
             </button>
       </header>
  <main class="ingresar">
-    <form action="/login" method="post">
+    <form action="/login" method="post" class="formulario-login">
     <div class="ingreso">
-    <label for="NombreDeUsuario" class="nombre">Nombre De Usuario</label>
-    <input type="text" name="NombreDeUsuari@" class="formulario" placeholder="Nombre de usuari@" id="NombreDeUsuario">
+    <label for="NombreDeUsuario">Nombre De Usuario</label>
+    <input type="text" name="NombreDeUsuari@" placeholder="Nombre de usuari@" id="NombreDeUsuario" minlength="8" maxlength="10">
     </div>
 
     <div class="ingreso">
     <label for="contraseña">Contraseña</label>
-    <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña">
+    <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña" required>
     </div>
 
     <div class="button-login">
