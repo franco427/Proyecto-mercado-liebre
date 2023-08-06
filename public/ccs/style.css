@@ -4,6 +4,22 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/*<------- header------->*/
+
+img{
+    width: 100%;
+}
+    
+    
+h1{
+    font-size: 24px;
+    padding: 15px;
+}
+    
+.home_banner{
+    width: 100%;
+}
+
 .login{
     display:none;
 }
@@ -81,33 +97,155 @@ font-size: 12px;
 background-color: #ebebeb;
 }
 
-#register-body{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+/*<------- Body ------->*/
 
 main{
 width: 90%;
 margin: auto;
 }
 
-.ingresar{
-font-size: 20px;
-font-family: 'Courier New';
-display: flex;
-flex-direction: column;
-align-items: center;
+article{
+    margin: 10px;
+    background-color: #fff;
+}
+    
+.article{
+    border-top: solid 1px #ebebeb;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+article .fa-solid{
+    font-size: 16px;
+    color: rgb(35, 192, 35);
+    border: 1px solid #39b54a;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    position: absolute;
+    display: block;
+    top: -15px;
+    background-color: #fff;
+}
+
+.precio{
+    font-size: 20px;
+    width: 30%;
+    padding-left: 5px;
+    font-weight:bold
+}
+    
+.descuentos{
+    font-size: 20px;
+    color: rgb(35, 192, 35);
+    width: 70%;
+    align-self: center;
+    font-weight: bold;
+}
+    
+.descripcion{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/*<------- Footer ------->*/
+
+section.fa-solid{
+    font-size: 2em;
+    margin-left: 10px;
+    padding-top: 15px;
+    color: #1259c3;
+}
+    
+.footer i{
+    color: #1259c3;
+}
+    
+p{
+    font-size: 16px;
+    padding: 10px;
+}
+/*<------- Body-register ------->*/
+
+#register-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .registro{
-font-size: 15px;
-font-family: Arial;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+input.formulario{
+    width: 60%;
+}
+
+.botones button{
+    font-size: 15px;
+    background-color: #1259c3;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+}
+    
+.botones{
+    display: flex;
+    margin: auto;
+}
+    
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.categorias label{
+    width: 50%;
+}
+
+    
+.radios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+    
+    
+.radios label{
+    width: 50%;
+}
+
+.footer-home{
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/*<------- Body-login ------->*/
+.ingresar{
+    font-size: 20px;
+    font-family: 'Courier New';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-login button{
-    width: 40%;
-    border-radius: 4px;
+width: 40%;
+border-radius: 4px;
 }
 
 .button-login{
@@ -122,9 +260,7 @@ border-radius: 5px;
 form.formulario-login{
 width: 90%;
 }
-input.formulario{
-width: 60%;
-}
+
 .ingresar input{
 height: 30px;
 border-radius: 4px;
@@ -136,39 +272,6 @@ background-color: #fff;
 width: 100%;
 }
 
-.botones button{
-font-size: 15px;
-background-color: #1259c3;
-border-radius: 5px;
-padding: 5px;
-width: 50%;
-}
-
-.botones{
-display: flex;
-margin: auto;
-}
-
-.categorias{
-display: flex;
-flex-wrap: wrap;
-font-size: 18px;
-justify-content: space-between;
-}
-.categorias label{
-width: 50%;
-}
-.radios{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-font-size: 17px;
-}
-
-.radios label{
-width: 50%;
-}
-
 div label{
 display: block;
 margin: 10px 0px;
@@ -178,103 +281,93 @@ div{
 padding: 20px;
 }
 
-img{
-width: 100%;
-}
-
-article{
-margin: 10px;
-background-color: #fff;
-}
-
-.article{
-border-top: solid 1px #ebebeb;
-padding: 10px;
-box-sizing: border-box;
-background-color: white;
-position: relative;
-display: flex;
-flex-wrap: wrap;
-}
-
-
-article .fa-solid{
-font-size: 16px;
-color: rgb(35, 192, 35);
-border: 1px solid #39b54a;
-padding: 5px;
-border-radius: 50%;
-width: 30px;
-height: 30px;
-right: 20px;
-position: absolute;
-display: block;
-top: -15px;
-background-color: #fff;
-}
-
-
-h1{
-font-size: 24px;
-padding: 15px;
-}
-
-.precio{
-font-size: 20px;
-width: 30%;
-padding-left: 5px;
-font-weight:bold
-}
-
-.descuentos{
-font-size: 20px;
-color: rgb(35, 192, 35);
-width: 70%;
-align-self: center;
-font-weight: bold;
-}
-
-.descripcion{
-font-size: 20px;
-margin-top: 10px;
-}
-
-.home_banner{
-width: 100%;
-}
-
-.footer-home{
-text-align: center;
-margin-top: 15px;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-position: relative;
-}
-
-section.fa-solid{
-font-size: 2em;
-margin-left: 10px;
-padding-top: 15px;
-color: #1259c3;
-}
-
-.footer i{
-color: #1259c3;
-}
-
-p{
-font-size: 16px;
-padding: 10px;
-}
 
 @media (min-width: 768px) {
+
+ /*<-------- home -------->*/
 
     main section{
         display:flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
+    div.login{
+        padding: 10px 5px 5px;
+        }
+    
+    .lista{
+        display: flex;
+        list-style: none;
+    }
+    
+    .login li{
+        margin: 0 5px;
+        font-size: 16px;
+    }
+
+    button.burger{
+        display: none;
+    }
+    
+    article{
+         width: 40%;
+         margin-bottom: 10px;
+    }
+
+    .logo{
+        width: 30%;
+        padding: 10px;
+    }
+
+    #lupa{
+        align-self: center;
+    }
+
+    .titular{
+        align-self: center;
+        padding: 5px;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .principal{
+        display: flex;
+    }
+    
+    .buscador{
+        max-width: 30%
+    }
+
+    .login{
+        display: flex;
+        justify-content: space-between;
+    }
+
+/*<-------- footer-home-register-login -------->*/
+    .footer{
+        padding: 5px;
+        width: 33%;
+        height: 50%;
+    }
+
+    .fa-credit-card{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+        .fa-gift{
+        font-size: 15px;
+        padding-bottom: 10px;
+        }
+        .fa-user-shield{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+/*<-------- register -------->*/
 
     .registro{
     width: 60%;
@@ -308,17 +401,6 @@ padding: 10px;
     font-size: 15px;
     padding-left: 5px;
     }
-    form.formulario-login{
-    max-width: 70%;
-    text-align: center;
-    border: solid 1px black;
-    border-radius: 8px;
-    margin-top: 15px;
-    background-color: rgb(212, 211, 211);
-    }
-    .formulario-login input{
-    width: 60%;
-    }
 
     input.datos{
     width: 60%;
@@ -328,108 +410,82 @@ padding: 10px;
     font-size: 20px;
     }
 
-    .principal{
-    display: flex;
-    }
-
-    .buscador{
-    max-width: 30%
-    }
-    .login{
-    display: flex;
-    justify-content: space-between;
+    
+    .botones{
+        width: 50%;
     }
     
+/*<-------- Login -------->*/
     .ingreso input{
     font-size: 18px;
     padding-left: 5px;
     }
 
-    div.login{
-    padding: 10px 5px 5px;
+    form.formulario-login{
+        max-width: 70%;
+        text-align: center;
+        border: solid 1px black;
+        border-radius: 8px;
+        margin-top: 15px;
+        background-color: rgb(212, 211, 211);
     }
 
-    .lista{
-    display: flex;
-    list-style: none;
+    .formulario-login input{
+        width: 60%;
     }
 
-    .login li{
-    margin: 0 5px;
-    font-size: 16px;
-    }
-
-    button.burger{
-    display: none;
-    }
-
-    article{
-     width: 40%;
-     margin-bottom: 10px;
-    }
-    .logo{
-    width: 30%;
-    padding: 10px;
-    }
-    #lupa{
-    align-self: center;
-    }
-    .titular{
-    align-self: center;
-    padding: 5px;
-    }
-    li a{
-    text-decoration: none;
-    color: black;
-    }
-    .botones{
-    width: 50%;
-    }
-    .footer{
-    padding: 5px;
-    width: 33%;
-    height: 50%;
-    }
-    .fa-credit-card{
-        font-size: 15px;
-        padding-bottom: 10px;
-        }
-        .fa-gift{
-        font-size: 15px;
-        padding-bottom: 10px;
-        }
-        .fa-user-shield{
-        font-size: 15px;
-        padding-bottom: 10px;
-    }
 }
 
 @media (min-width: 1200px) {
 
+/*<-------- home -------->*/
 
     main section{
     display: flex;
     justify-content:space-evenly
     }
 
+    .visual_pc{
+        display: flex;
+        align-items: center;
+    }
+   
+    .logo{
+       width: 300px;
+    }
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
+    }
+   
+    .titular{
+       padding: 5px;
+       font-size: 18px;
+    }
+   
+    .principal{
+       justify-content: space-around;
+    }
+       
+    .home_banner{
+       height: 200px;
+    }
+
     .descuentos{
     font-size: 15px;
     }
+
     .precio{
         font-size: 15px;
     padding-left: -90px;
     }
+
     .descripcion{
     font-size: 15px;
     }
 
-    .descripcion{
-    opacity: 0;
-    }
-
-    form.formulario-login{
-    width: 70%;
-    }
+/*<-------- register -------->*/
 
     form.registro{
     display: flex;
@@ -467,99 +523,41 @@ padding: 10px;
     }
 
     .radios{
-    padding: 0;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
+
     .radios label{
-    width: 30%;
-    font-size: 15px;
-    margin: 7px;
-    }
-
-    article:hover .descripcion{
-    opacity: 1;
-    transition: 0.50s;
-    }
-
-    section article:hover{
-    transform: translateY(-20px);
-    transition: 0.50s;
-    box-shadow: 5px 5px 3px rgb(100, 100, 100);
-    }
-
-    .article{
-    height: 60px;
-    }
-
-    article:hover .article{
-    height: 90px;
-    position:fixed;
-    box-shadow: 5px 5px 3px rgb(100, 100, 100);
-    transition: 0.25s;
-    }
-
-    .fa-truck:hover{
-    transform: rotate(-90deg);
-    transition: 2s;
-    }
-
-    .button-login{
-    width: 30%;
-    margin: auto;
-    }
-
-    .button-login button:hover{
-    background-color: #0022AA;
-    color: #fff;
-    transform: translateY(-3px);
-    transition: 0.50s;
-    box-shadow: 0px 2px 5px rgb(100, 100, 100);
-    }
-
-    .visual_pc{
-     display: flex;
-     align-items: center;
-    }
-
-    .logo{
-    width: 300px;
-    }
-
-    .titular{
-    padding: 5px;
-    }
-
-    .principal{
-    justify-content: space-around;
-    }
-    
-    .home_banner{
-    height: 200px;
-    }
-
-    article{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 20%;
-    }
-
-    .titular{
-    font-size: 18px;
+        width: 30%;
+        font-size: 15px;
+        margin: 7px;
     }
 
     .botones{
-    justify-content: space-around;
-    width: 30%;
+        justify-content: space-around;
+        width: 30%;
+    }
+
+/*<-------- login -------->*/
+
+    form.formulario-login{
+    width: 70%;
     }
 
     .ingresar input{
     width: 50%;
     height: 30px;
     }
+
     .button-login button{
     width: 50%;
     border-radius: 4px;
     }
+    
+
+/*<-------- Footer -------->*/
+
     .fa-credit-card{
     font-size: 20px;
     padding-bottom: 10px;
@@ -573,20 +571,67 @@ padding: 10px;
     padding-bottom: 10px;
     }
 
-    .footer-home .footer:hover{
+    .copy{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    }
+
+/*<-------- tranciciones -------->*/
+
+.descripcion{
+    opacity: 0;
+}
+
+article:hover .descripcion{
+    opacity: 1;
+    transition: 0.50s;
+}
+
+section article:hover{
+    transform: translateY(-20px);
+    transition: 0.50s;
+    box-shadow: 5px 5px 3px rgb(100, 100, 100);
+}
+
+.article{
+    height: 60px;
+}
+
+article:hover .article{
+    height: 90px;
+    position:fixed;
+    box-shadow: 5px 5px 3px rgb(100, 100, 100);
+    transition: 0.25s;
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+    transition: 2s;
+}
+
+.button-login{
+    width: 30%;
+    margin: auto;
+}
+
+.button-login button:hover{
+    background-color: #0022AA;
+    color: #fff;
+    transform: translateY(-3px);
+    transition: 0.50s;
+    box-shadow: 0px 2px 5px rgb(100, 100, 100);
+}
+
+.footer-home .footer:hover{
     background-color: white;
     border-radius: 10px;
     transition: all 0.25s;
     border: solid 1px blue;
     }
 
-    .footer:hover .fa-solid{
+.footer:hover .fa-solid{
     color: black;
-    }
+}
 
-    .copy{
-    position: absolute;
-    bottom: 0;
-    left: 15px;
-    }
 }
