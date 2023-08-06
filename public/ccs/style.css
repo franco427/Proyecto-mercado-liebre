@@ -296,11 +296,12 @@ padding: 10px;
     justify-content:space-evenly
     }
     .categorias input[type="checkbox"]{
-    width:40%;
+    width: 40%;
     align-self: center;
     }
     .radios input{
     align-self: center;
+    width: 10%;
     }
 
     input.formulario{
@@ -456,6 +457,7 @@ padding: 10px;
     flex-wrap:wrap;
     justify-content: space-evenly
     }
+    
     #segunda .categorias input[type="checkbox"]{
     width: 30%
     }
@@ -465,12 +467,14 @@ padding: 10px;
     }
 
     .radios{
-    display: flex;
+    padding: 0;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     }
     .radios label{
-    width: 20%;
-    font-size: 17px;
+    width: 30%;
+    font-size: 15px;
+    margin: 7px;
     }
 
     article:hover .descripcion{
